@@ -1,9 +1,11 @@
+initial commit
+
 # Module Project: React Components and Components State - American Football Scoreboard
 
 This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored React components and component state. During the module, you studied what React is, what React components are and how to build them, what state is and how to make a component stateful, and how to change a components state with a click handler. In your project you will demonstrate proficiency of these subjects and principles by creating an application using each of these.
 
 ## Instructions
-
+sdftest
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this project.**
 
 ### Commits
@@ -16,10 +18,10 @@ In this project, you build an app that diplays a scoreboard for an american foot
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd american-football-scoreboard`
+- [ x] Create a forked copy of this project.
+- [ x] Add your team lead as collaborator on Github.
+- [ x] Clone your OWN version of the repository in your terminal
+- [ x] CD into the project base directory `cd american-football-scoreboard`
 - [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
@@ -41,20 +43,21 @@ Follow these steps for completing your project.
 
 ### STEP 1 & 2 - Adding Team Scores to the Component's State
 
-- [ ] Import the `useState` hook
-- [ ] Set up the state values for the Lions team score using the state hook
+- [ x] Import the `useState` hook
+
+- [ x] Set up the state values for the Lions team score using the state hook
 
 ```js
 const [value, setValue] = useState(); // Give these better names, and decide whether you want to pass an initial score into the state hook as the initialValue
 ```
 
-- [ ] Set up the state value for the Tigers team score using a second state hook call
+- [ x] Set up the state value for the Tigers team score using a second state hook call
 
 ### STEP 3 - Render the Scores to the DOM
 
-- [ ] The scores in the JSX are currently hardcoded to 32 points each. Remove the hardcoded values
-- [ ] Render the state values from what we just set up in steps 1 and 2
-- [ ] Play around with different initial values to test if they are rendering on the DOM correctly
+- [ x] The scores in the JSX are currently hardcoded to 32 points each. Remove the hardcoded values
+- [ x] Render the state values from what we just set up in steps 1 and 2
+- [ x] Play around with different initial values to test if they are rendering on the DOM correctly
 
 ### STEP 4 - Add Click Functionality to Increment the Scores
 
